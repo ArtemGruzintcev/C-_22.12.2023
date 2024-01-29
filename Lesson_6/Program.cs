@@ -47,15 +47,39 @@
 //? “hello” => 2
 //? “world” => 1
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        Console.Clear();
-    //     Console.WriteLine("Введите слово: ");
-    //     string word = Console.ReadLine();
-    //     shar[] Word = new char[word.Length]
-    //     System.Console.WriteLine(word);
-    
-    }
-}
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         Console.Clear();
+//         Console.WriteLine("Введите слово: ");
+//         string word = Console.ReadLine();
+//         char[] charWord = new char[word.Length];
+//         for (int y = 0; y < word.Length; y++)
+//         {
+//             charWord[y] = word[y];
+//         }
+//         int vowelsCount = GetVowelsCount(charWord);
+//         Console.WriteLine($"Гласных в слове {word} = " + vowelsCount);
+       
+//     }
+//     static int GetVowelsCount(char[] charWord)
+//     {
+//         char[] vowels = new char[] { 'a', 'e', 'y', 'i', 'o', 'u' }; //Гласные
+
+//         int vowelsCount = 0;
+
+//         foreach (char word in charWord)
+//         {
+//             foreach (char litter in vowels)
+//             {
+//                 if (word == litter)
+//                 vowelsCount++;
+//             }
+//         }
+//         return vowelsCount;
+//     }
+// }
+
+
+
